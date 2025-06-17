@@ -1,0 +1,62 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "Nodevism",
+          "identity": "0F6BF401222AA224",
+          "website": "https://nodevism.com",
+          "security_contact": "sirbell@nodevism.com",
+          "details": "Harden from Birth. Fueled by Resilient Infra. Tuned for mainnet unstoppable..!"
+        },
+        "commission": {
+          "rate": "0.100000000000000000",
+          "max_rate": "0.250000000000000000",
+          "max_change_rate": "0.050000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "",
+        "validator_address": "lumeravaloper1v6tmmkvl70hwf0sjvwqjhhph3rem58742tlqkv",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "TyZtArWP1zg+jSnxRGsp8ZPC2Hu78oLxuKeK59lZE0w="
+        },
+        "value": {
+          "denom": "ulume",
+          "amount": "1000000"
+        }
+      }
+    ],
+    "memo": "cc141281ae653886dc3fa4d9fa9ccbe9226b3ff4@193.34.212.38:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "Ak4yrwGqAfgED+btXk9A9TDc1cfXaFebjA1UrA1hSIh9"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    },
+    "tip": null
+  },
+  "signatures": [
+    "nfcdSxofIyr4u6OpylBpZ5VtqmTYd4+vfWf4zlPaUD9mMoQ6Cz+lkifnOUvQWWDm5SP4cZ61MCTfwDyJs0I4Ig=="
+  ]
+}
